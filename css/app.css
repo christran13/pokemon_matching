@@ -43,7 +43,7 @@ body {
 }
 
 .back {
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
   background-color: #DA1235;
   background-size: contain;
   background-repeat: no-repeat;
@@ -51,9 +51,9 @@ body {
 }
 
 .selected {
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 .match .front {
-  background: #DA1235 !important;
+  background: #DA1235 url('../img/ash.png') no-repeat center center / contain !important;
 }
